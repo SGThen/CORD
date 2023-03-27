@@ -1,0 +1,61 @@
+body{
+		background-image: url('coflag1.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+       
+}
+
+h1{
+	color: #04e704;
+	text-align: center;
+	font-family: times new roman, arial;
+    font-size: 100px;
+}
+
+h2{
+	color: #04e704;
+	text-align: center;
+	font-family: times new roman, arial;
+}
+
+h3{
+	color: #ffbbbb;
+	
+	font-family: times new roman, arial;
+}
+
+p{
+	color: #04e704;
+	font-family: times new roman, arial;
+    font-size: larger;
+}
+
+a:visited{
+	color: aqua;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #04e704;
+  }
+  
+  li {
+    display: inline-block;
+    width: 200px;
+    height: 125px;
+    margin: 10px;
+    background-image: url("OIP.jpg");
+    background-size: 200px;
+    border: 1px solid rgb(4, 0, 0);
+    box-sizing: border-box;
+    color: #04e704;
+  }
+
+a {
+    color:#04e704;
+}
+  
+  
