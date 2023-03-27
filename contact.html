@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--Creating a title for the HTML so you know the tab you are on-->
+  <title>CORD</title>
+  <!--linking the style sheet to the html-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--making the header for the buttons that will be on every page-->
+  <header>
+    
+    <nav>
+        
+      <ul>
+        
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="about.html" class="link">About</a></li>
+        <li><a href="contact.html" class="link">Contact</a></li>
+        
+      </ul>
+    </nav>
+    </header>
+
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+  <head>
+    <title>Fillable Form</title>
+  </head>
+  <body>
+    <h2>Please fill out your information and we will get back to you as soon as possible</h2>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+<br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+<br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+      const form = document.querySelector('#myForm');
+      const output = document.querySelector('#output');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault(); // Prevent form submission
+
+        const name = form.querySelector('#name').value;
+        const email = form.querySelector('#email').value;
+        const message = form.querySelector('#message').value;
+
+        // Create output HTML
+        const html = `
+        <h3>Form Data</h3>
+        <h3>thank you</h3>
+          <p1><strong>Name:</strong> ${name}</p1>
+          
+          <p1><strong>Email:</strong> ${email}</p1>
+          
+          <p1><strong>Message:</strong> ${message}</p1>
+        `;
+
+        output.innerHTML = html; // Update output
+      });
+    </script>
+  </body>
+</html>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <footer>
+        <p>&copy; 2023 CORD. Written by James Sisterhen. All Rights Reserved.</p>
+      </footer>
+    </body>
+    </html>
